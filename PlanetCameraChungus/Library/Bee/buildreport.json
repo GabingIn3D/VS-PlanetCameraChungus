@@ -1,0 +1,1041 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 1.69454813928612E+15,"dur": 43299970, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454813934097E+15,"dur": 15828, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454813962642E+15,"dur": 6300, "ph":"X", "name": "Prepare For Build"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454813963273E+15,"dur": 26325892, "ph":"X", "name": "ProducePlayerScriptAssemblies"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454814251228E+15,"dur": 23446197, "ph":"X", "name": "Prebuild Cleanup and Recompile"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454814251663E+15,"dur": 22088086, "ph":"X", "name": "Compile scripts"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454816460472E+15,"dur": 1353749, "ph":"X", "name": "Generate and validate platform script types"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454816595863E+15,"dur": 17832, "ph":"X", "name": "Verify Build setup"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454816597697E+15,"dur": 148099, "ph":"X", "name": "Prepare assets for target platform"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454816624833E+15,"dur": 2399718, "ph":"X", "name": "Building scenes"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454816624838E+15,"dur": 2399661, "ph":"X", "name": "Building scene Assets/Scenes/Final/Starter_2.unity"},
+{ "pid": "Unity", "tid": 1,"ts": 1.6945481686487E+15,"dur": 2377737, "ph":"X", "name": "Build scripts DLLs"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454816939362E+15,"dur": 1594841, "ph":"X", "name": "GetReferencedAssemblies"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454817117931E+15,"dur": 1094058, "ph":"X", "name": "Build GlobalGameManagers file"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454817236687E+15,"dur": 1997168, "ph":"X", "name": "Writing asset files"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454817236717E+15,"dur": 58006, "ph":"X", "name": "Packaging assets - globalgamemanagers.assets"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454817242519E+15,"dur": 1929163, "ph":"X", "name": "Packaging assets - sharedassets0.assets"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454817436405E+15,"dur": 3651120, "ph":"X", "name": "Building Resources/unity_builtin_extra"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454817803217E+15,"dur": 132820, "ph":"X", "name": "Write data build dirty tracking information"},
+{ "pid": "Unity", "tid": 1,"ts": 1.6945481781675E+15,"dur": 4354426, "ph":"X", "name": "Postprocess built player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454817822206E+15,"dur": 62562, "ph":"X", "name": "Setup incremental player build"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454817828463E+15,"dur": 3636753, "ph":"X", "name": "Incremental player build"},
+{ "pid": "Unity", "tid": 1,"ts": 1.69454818192257E+15,"dur": 24907, "ph":"X", "name": "Report output files"},
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1694548142594812, "dur": 21986542, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694548142596273, "dur": 13395, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694548142609811, "dur": 45202, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694548142655047, "dur": 1384731, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694548144039779, "dur": 20531406, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694548164571209, "dur": 10143, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694548164586247, "dur": 1061, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1694548143770302, "dur": 253913, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694548143771310, "dur": 79636, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694548143999644, "dur": 3976, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694548144003623, "dur": 20578, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694548144004338, "dur": 17265, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694548144029040, "dur": 1173, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694548144028189, "dur": 2051, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694548164587625, "dur": 1994, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1694548144115327, "dur":1390, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548144116723, "dur":54, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1694548144116802, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1694548144116813, "dur":219, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1694548144117056, "dur":591, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548144117647, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548164535211, "dur":445, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548164535657, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548164535666, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548164535670, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548164535677, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548164535680, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548164535685, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548164535688, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548164535695, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548164535697, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548164535705, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548164535708, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548164535716, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548164535932, "dur":37, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548164546757, "dur":1613, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1694548144117469, "dur":215, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548144117685, "dur":854, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548144118546, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1694548144118578, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548144119318, "dur":576, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1694548144119909, "dur":307458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.DSPGraphModule.dll_15ECDCF7789C29BD.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548144427371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548144427376, "dur":673185, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.DSPGraphModule.dll_15ECDCF7789C29BD.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548145100596, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1694548145100663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548145100735, "dur":389, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1694548145101125, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.AdditionalFile.txt" }}
+,{ "pid":12345, "tid":1, "ts":1694548145101128, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548145101132, "dur":264, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.AdditionalFile.txt" }}
+,{ "pid":12345, "tid":1, "ts":1694548145101397, "dur":54974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UIElementsNativeModule.dll_8CE9B403E5459412.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548145156374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548145156380, "dur":289252, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.UIElementsNativeModule.dll_8CE9B403E5459412.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548145445659, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_80BF18517B518526.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548145445666, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548145445670, "dur":300411, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_80BF18517B518526.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548145746111, "dur":27475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_B95FC14C1F16968C.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548145773591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548145773596, "dur":321176, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_B95FC14C1F16968C.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548146094804, "dur":18329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAudioModule.dll_AC51CE396BB6B116.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548146113137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548146113143, "dur":235760, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAudioModule.dll_AC51CE396BB6B116.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548146348935, "dur":16714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityConnectModule.dll_1EE63A6CC0C6E0F5.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548146365652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548146365658, "dur":261613, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.UnityConnectModule.dll_1EE63A6CC0C6E0F5.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548146627305, "dur":105196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UIModule.dll_668D9AC67D5C1114.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548146732505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548146732511, "dur":223875, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.UIModule.dll_668D9AC67D5C1114.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548146956416, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TilemapModule.dll_D348376BD071F192.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548146956422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548146956427, "dur":662821, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.TilemapModule.dll_D348376BD071F192.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548147619271, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainModule.dll_344BCFEAB8B51089.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548147619279, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548147619282, "dur":334289, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainModule.dll_344BCFEAB8B51089.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548147953607, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll_0C365B6D11722EF6.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548147953614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548147953619, "dur":167144, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll_0C365B6D11722EF6.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548148120792, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ProfilerModule.dll_42E1B4C49F94DFA9.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548148120815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548148120820, "dur":361280, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.ProfilerModule.dll_42E1B4C49F94DFA9.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548148482133, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PerformanceReportingModule.dll_34557A5AE54BE67E.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548148482140, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548148482145, "dur":528603, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.PerformanceReportingModule.dll_34557A5AE54BE67E.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548149010787, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ImageConversionModule.dll_0124FC78D614CBE5.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548149010800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548149010806, "dur":770382, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.ImageConversionModule.dll_0124FC78D614CBE5.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548149781223, "dur":3197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/UnityEngine.TestRunner.dll.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548149784422, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548149784425, "dur":329405, "ph":"X", "name": "MovedFromExtractorCombine",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.TestRunner.dll.mvfrm" }}
+,{ "pid":12345, "tid":1, "ts":1694548150113848, "dur":8800505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548158914353, "dur":165822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Csc Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.dll (+2 others)" }}
+,{ "pid":12345, "tid":1, "ts":1694548159080177, "dur":83, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548159080265, "dur":2840784, "ph":"X", "name": "Csc",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.dll (+2 others)" }}
+,{ "pid":12345, "tid":1, "ts":1694548161925050, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Csc Library/Bee/artifacts/1900b0aP.dag/Cinemachine.dll (+2 others)" }}
+,{ "pid":12345, "tid":1, "ts":1694548161925512, "dur":57, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548161925573, "dur":1163458, "ph":"X", "name": "Csc",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Cinemachine.dll (+2 others)" }}
+,{ "pid":12345, "tid":1, "ts":1694548163093965, "dur":204681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Library/PlayerScriptAssemblies/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548163298650, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548163298654, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Library/PlayerScriptAssemblies/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548163299668, "dur":954155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548164253824, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Library/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1694548164254062, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548164254064, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Library/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1694548164254928, "dur":280272, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548144117608, "dur":618, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548144118226, "dur":1499, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548144119726, "dur":365086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GameCenterModule.dll_AB0C626C41927617.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548144484816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548144484822, "dur":592731, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.GameCenterModule.dll_AB0C626C41927617.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548145077575, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_575E10D6BC6D466E.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548145077580, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548145077583, "dur":244691, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_575E10D6BC6D466E.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548145322303, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1694548145322334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548145322338, "dur":552, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1694548145322892, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.AdditionalFile.txt" }}
+,{ "pid":12345, "tid":2, "ts":1694548145322894, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548145322898, "dur":288, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.AdditionalFile.txt" }}
+,{ "pid":12345, "tid":2, "ts":1694548145323187, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_A95085E7EDCC06C6.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548145323193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548145323197, "dur":307191, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_A95085E7EDCC06C6.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548145630420, "dur":16455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_ECB859F5B2765128.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548145646880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548145646885, "dur":206162, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_ECB859F5B2765128.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548145853076, "dur":32334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_B0D7AFDDA7E6A31C.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548145885415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548145885421, "dur":177276, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_B0D7AFDDA7E6A31C.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548146062722, "dur":73940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestModule.dll_12C40422E1096664.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548146136666, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548146136673, "dur":228978, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestModule.dll_12C40422E1096664.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548146365681, "dur":42246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsModule.dll_C2F24CA0ADF4F141.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548146407932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548146407938, "dur":259604, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsModule.dll_C2F24CA0ADF4F141.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548146667575, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_5040928A93BC13B7.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548146667582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548146667586, "dur":273637, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_5040928A93BC13B7.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548146941265, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TLSModule.dll_2FF9176ED17939AF.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548146941276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548146941281, "dur":223000, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.TLSModule.dll_2FF9176ED17939AF.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548147164311, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreTextEngineModule.dll_7C20241639311A7B.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548147164318, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548147164341, "dur":454805, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreTextEngineModule.dll_7C20241639311A7B.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548147619179, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainPhysicsModule.dll_A3CD84AA1B1099D2.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548147619186, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548147619190, "dur":232109, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainPhysicsModule.dll_A3CD84AA1B1099D2.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548147851331, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SharedInternalsModule.dll_85363B4E4D42C735.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548147851338, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548147851342, "dur":670262, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.SharedInternalsModule.dll_85363B4E4D42C735.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548148521639, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.JSONSerializeModule.dll_A6368EB5CE655AFC.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548148521646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548148521650, "dur":410768, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.JSONSerializeModule.dll_A6368EB5CE655AFC.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548148932451, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputModule.dll_56EB7B8C58888C2E.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548148932460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548148932465, "dur":338906, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.InputModule.dll_56EB7B8C58888C2E.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548149271402, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_FCEC78CF0B55E9EB.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548149271419, "dur":391, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149271812, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.AdditionalFile.txt" }}
+,{ "pid":12345, "tid":2, "ts":1694548149271815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149271819, "dur":536, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.AdditionalFile.txt" }}
+,{ "pid":12345, "tid":2, "ts":1694548149272357, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/Cinemachine.AdditionalFile.txt" }}
+,{ "pid":12345, "tid":2, "ts":1694548149272359, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149272363, "dur":359, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Cinemachine.AdditionalFile.txt" }}
+,{ "pid":12345, "tid":2, "ts":1694548149272723, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.AdditionalFile.txt" }}
+,{ "pid":12345, "tid":2, "ts":1694548149272725, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149272727, "dur":273, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.AdditionalFile.txt" }}
+,{ "pid":12345, "tid":2, "ts":1694548149273001, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/UnityEngine.TestRunner.AdditionalFile.txt" }}
+,{ "pid":12345, "tid":2, "ts":1694548149273003, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149273005, "dur":466, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.TestRunner.AdditionalFile.txt" }}
+,{ "pid":12345, "tid":2, "ts":1694548149273473, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1694548149273478, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149273481, "dur":277, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1694548149273759, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/Cinemachine.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1694548149273767, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149273770, "dur":281, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Cinemachine.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1694548149274052, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1694548149274061, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149274063, "dur":603, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1694548149274668, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1694548149274678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149274681, "dur":336, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1694548149275018, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1694548149275023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149275027, "dur":316, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1694548149275344, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1694548149275349, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149275352, "dur":382, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1694548149275735, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/UnityEngine.TestRunner.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1694548149275744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149275747, "dur":493, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.TestRunner.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1694548149276241, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1694548149276246, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149276249, "dur":505, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1694548149276756, "dur":1359, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149278115, "dur":1555, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149279670, "dur":1355, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149281026, "dur":938, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149281964, "dur":5, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149281969, "dur":4, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149281973, "dur":5, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149281978, "dur":4, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149281982, "dur":4, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149281986, "dur":1173, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149283160, "dur":1308, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149284469, "dur":1340, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149285810, "dur":1299, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149287110, "dur":1480, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149288590, "dur":1370, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149289960, "dur":1359, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149291319, "dur":1384, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149292703, "dur":1410, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149294113, "dur":1489, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149295602, "dur":1413, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149297016, "dur":1478, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149298495, "dur":1719, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149300215, "dur":1558, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149301773, "dur":1667, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149303440, "dur":1470, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149304911, "dur":1806, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149306717, "dur":1395, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149308112, "dur":1583, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149309695, "dur":1525, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149311221, "dur":1372, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149312594, "dur":1399, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149313994, "dur":1425, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149315420, "dur":1384, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149316804, "dur":1260, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149318065, "dur":464, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149318529, "dur":5, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149318534, "dur":4, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149318538, "dur":4, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149318542, "dur":6, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149318548, "dur":8, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149318556, "dur":10, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149318566, "dur":5, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149318571, "dur":5, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149318576, "dur":4, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149318580, "dur":5, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149318585, "dur":4, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149318589, "dur":5, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149318594, "dur":4, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149318598, "dur":1, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149318599, "dur":462650, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149781250, "dur":3161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.dll.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548149784413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548149784418, "dur":495087, "ph":"X", "name": "MovedFromExtractorCombine",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.dll.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1694548150279526, "dur":8634848, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548158914375, "dur":165795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Csc Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.dll (+2 others)" }}
+,{ "pid":12345, "tid":2, "ts":1694548159080173, "dur":88, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548159080266, "dur":3488975, "ph":"X", "name": "Csc",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.dll (+2 others)" }}
+,{ "pid":12345, "tid":2, "ts":1694548162573024, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Library/PlayerScriptAssemblies/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1694548162573258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548162573263, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Library/PlayerScriptAssemblies/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1694548162574288, "dur":456480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548163030768, "dur":63200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548163093968, "dur":8089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Library/PlayerScriptAssemblies/Cinemachine.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1694548163102060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548163102066, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Library/PlayerScriptAssemblies/Cinemachine.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1694548163102904, "dur":1150922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548164253826, "dur":206404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548164460230, "dur":45292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Library/PlayerScriptAssemblies/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548164505526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548164505532, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Library/PlayerScriptAssemblies/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548164506486, "dur":28815, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548144117540, "dur":183, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548144117725, "dur":1536, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548144119262, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.AdditionalFile.txt" }}
+,{ "pid":12345, "tid":3, "ts":1694548144119267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548144119512, "dur":1090, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.AdditionalFile.txt" }}
+,{ "pid":12345, "tid":3, "ts":1694548144120604, "dur":3095273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Csc Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.dll (+2 others)" }}
+,{ "pid":12345, "tid":3, "ts":1694548147215880, "dur":57, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548147215942, "dur":11693774, "ph":"X", "name": "Csc",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.dll (+2 others)" }}
+,{ "pid":12345, "tid":3, "ts":1694548158914352, "dur":166231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Csc Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.dll (+2 others)" }}
+,{ "pid":12345, "tid":3, "ts":1694548159080585, "dur":122, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548159080712, "dur":3931434, "ph":"X", "name": "Csc",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.dll (+2 others)" }}
+,{ "pid":12345, "tid":3, "ts":1694548163030482, "dur":2743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Csc Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.dll (+2 others)" }}
+,{ "pid":12345, "tid":3, "ts":1694548163033228, "dur":142, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548163033376, "dur":1204031, "ph":"X", "name": "Csc",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.dll (+2 others)" }}
+,{ "pid":12345, "tid":3, "ts":1694548164253787, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.ref.dll_6EBD829C5A4313E8.mvfrm" }}
+,{ "pid":12345, "tid":3, "ts":1694548164254010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548164254015, "dur":175751, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.ref.dll_6EBD829C5A4313E8.mvfrm" }}
+,{ "pid":12345, "tid":3, "ts":1694548164429787, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.dll.mvfrm" }}
+,{ "pid":12345, "tid":3, "ts":1694548164430020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548164430025, "dur":105143, "ph":"X", "name": "MovedFromExtractorCombine",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.dll.mvfrm" }}
+,{ "pid":12345, "tid":3, "ts":1694548164535187, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ScriptAssemblies" }}
+,{ "pid":12345, "tid":3, "ts":1694548164535189, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548144117572, "dur":182, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548144117755, "dur":1743, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548144119499, "dur":301966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GIModule.dll_035645A6BCC3F382.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548144421470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548144421574, "dur":651179, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.GIModule.dll_035645A6BCC3F382.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548145072783, "dur":49641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_76697ECD213FD2BF.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548145122428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548145122434, "dur":237222, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_76697ECD213FD2BF.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548145359682, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_9905C0C14E27EC98.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548145359688, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548145359692, "dur":265494, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_9905C0C14E27EC98.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548145625216, "dur":49240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_EC1E8450A850E3EA.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548145674462, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548145674478, "dur":220486, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_EC1E8450A850E3EA.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548145894991, "dur":40265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_885E750D80652837.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548145935264, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548145935271, "dur":295988, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_885E750D80652837.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548146231284, "dur":25876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAssetBundleModule.dll_BD283EAB17AA9CD2.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548146257164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548146257170, "dur":255224, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAssetBundleModule.dll_BD283EAB17AA9CD2.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548146512424, "dur":678262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UNETModule.dll_090FC6B66E4EC838.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548147190690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548147190695, "dur":432327, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.UNETModule.dll_090FC6B66E4EC838.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548147623058, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SubsystemsModule.dll_FEE63B5E3149F3A4.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548147623066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548147623071, "dur":190949, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.SubsystemsModule.dll_FEE63B5E3149F3A4.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548147814049, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteShapeModule.dll_C2B1B342A36E3ED0.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548147814056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548147814061, "dur":545093, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteShapeModule.dll_C2B1B342A36E3ED0.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548148359190, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Physics2DModule.dll_E5ABB0B1EF24E42D.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548148359198, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548148359203, "dur":615940, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.Physics2DModule.dll_E5ABB0B1EF24E42D.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548148975177, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputLegacyModule.dll_3A95A10685BDBCB7.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548148975184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548148975189, "dur":296253, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.InputLegacyModule.dll_3A95A10685BDBCB7.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548149271470, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.rsp" }}
+,{ "pid":12345, "tid":4, "ts":1694548149271501, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548149271505, "dur":445, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.rsp" }}
+,{ "pid":12345, "tid":4, "ts":1694548149271951, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/Cinemachine.rsp" }}
+,{ "pid":12345, "tid":4, "ts":1694548149271983, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548149272002, "dur":485, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Cinemachine.rsp" }}
+,{ "pid":12345, "tid":4, "ts":1694548149272488, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.rsp" }}
+,{ "pid":12345, "tid":4, "ts":1694548149272517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548149272520, "dur":416, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.rsp" }}
+,{ "pid":12345, "tid":4, "ts":1694548149272937, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/UnityEngine.TestRunner.rsp" }}
+,{ "pid":12345, "tid":4, "ts":1694548149272972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548149272974, "dur":530, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.TestRunner.rsp" }}
+,{ "pid":12345, "tid":4, "ts":1694548149273506, "dur":111155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Csc Library/Bee/artifacts/1900b0aP.dag/UnityEngine.TestRunner.dll (+2 others)" }}
+,{ "pid":12345, "tid":4, "ts":1694548149384665, "dur":72, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548149384742, "dur":9522863, "ph":"X", "name": "Csc",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.TestRunner.dll (+2 others)" }}
+,{ "pid":12345, "tid":4, "ts":1694548158913419, "dur":1361181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548160274604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548160274609, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548160275986, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.dll.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548160276167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548160276171, "dur":337896, "ph":"X", "name": "MovedFromExtractorCombine",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.dll.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548160614091, "dur":1310960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548161925051, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_54050F91DBE64E14.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548161925268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548161925272, "dur":500451, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_54050F91DBE64E14.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548162425746, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/Cinemachine.dll.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548162425982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548162425987, "dur":296789, "ph":"X", "name": "MovedFromExtractorCombine",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Cinemachine.dll.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1694548162722793, "dur":307721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548163030515, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Library/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1694548163030813, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548163030816, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Library/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1694548163031756, "dur":1222075, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548164253831, "dur":281379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548144117720, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548144117720, "dur":1640, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548144119361, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.AdditionalFile.txt" }}
+,{ "pid":12345, "tid":5, "ts":1694548144119408, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548144119474, "dur":1208, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.AdditionalFile.txt" }}
+,{ "pid":12345, "tid":5, "ts":1694548144120683, "dur":520927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.DirectorModule.dll_109B7B8E063B589C.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548144641614, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548144641620, "dur":435886, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.DirectorModule.dll_109B7B8E063B589C.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548145077535, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_B1232B7377C6B310.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548145077542, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548145077547, "dur":231551, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_B1232B7377C6B310.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548145309126, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_F075B3DBE250678A.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548145309132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548145309138, "dur":245742, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_F075B3DBE250678A.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548145554910, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_6B19FC9921150B68.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548145554917, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548145554921, "dur":264781, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_6B19FC9921150B68.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548145819734, "dur":31888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_B1766872BDF4149D.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548145851626, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548145851633, "dur":210233, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_B1766872BDF4149D.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548146061897, "dur":27763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestWWWModule.dll_46E2697228F0D6E7.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548146089663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548146089669, "dur":220013, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestWWWModule.dll_46E2697228F0D6E7.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548146309714, "dur":19319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityCurlModule.dll_CC2261F2BE3BDE85.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548146329037, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548146329043, "dur":219740, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.UnityCurlModule.dll_CC2261F2BE3BDE85.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548146548818, "dur":379412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UmbraModule.dll_6B4A5FF46F7712FD.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548146928234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548146928240, "dur":228690, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.UmbraModule.dll_6B4A5FF46F7712FD.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548147156963, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextRenderingModule.dll_E95DAE459A090753.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548147156969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548147156974, "dur":478941, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.TextRenderingModule.dll_E95DAE459A090753.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548147635947, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.StreamingModule.dll_4D9AAE119DAFA3D6.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548147635955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548147635959, "dur":221467, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.StreamingModule.dll_4D9AAE119DAFA3D6.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548147857464, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ScreenCaptureModule.dll_C01E3C3AE2D1875E.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548147857471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548147857476, "dur":634702, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.ScreenCaptureModule.dll_C01E3C3AE2D1875E.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548148492205, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ParticleSystemModule.dll_A352DBD701CD9F45.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548148492212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548148492216, "dur":621208, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.ParticleSystemModule.dll_A352DBD701CD9F45.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548149113451, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.HotReloadModule.dll_1A4E7EC7295B081A.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548149113457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149113465, "dur":177474, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.HotReloadModule.dll_1A4E7EC7295B081A.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548149290966, "dur":1445, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149292411, "dur":1406, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149293818, "dur":1484, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149295302, "dur":1381, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149296683, "dur":1444, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149298127, "dur":1603, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149299730, "dur":1392, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149301122, "dur":1486, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149302608, "dur":1370, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149303979, "dur":1363, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149305343, "dur":1373, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149306716, "dur":1331, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149308047, "dur":1412, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149309459, "dur":1379, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149310838, "dur":1305, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149312143, "dur":1359, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149313503, "dur":1427, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149314931, "dur":1275, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149316206, "dur":1249, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149317455, "dur":1295, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548149318751, "dur":9594697, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548158913449, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Library/PlayerScriptAssemblies/UnityEngine.TestRunner.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1694548158913623, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548158913671, "dur":2093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Library/PlayerScriptAssemblies/UnityEngine.TestRunner.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1694548158915765, "dur":187775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Library/PlayerScriptAssemblies/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1694548159103545, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548159103549, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Library/PlayerScriptAssemblies/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1694548159104678, "dur":1175888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Library/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548160280570, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548160280574, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Library/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548160281500, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.dll.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548160281707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548160281712, "dur":327822, "ph":"X", "name": "MovedFromExtractorCombine",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.dll.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548160609557, "dur":1315495, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548161925052, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Library/PlayerScriptAssemblies/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1694548161925270, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548161925273, "dur":812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Library/PlayerScriptAssemblies/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1694548161926087, "dur":646941, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548162573028, "dur":88458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548162661489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548162661495, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548162662518, "dur":367964, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548163030482, "dur":1532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.ref.dll_27ACA245D8399F39.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548163032016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548163032021, "dur":188715, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.ref.dll_27ACA245D8399F39.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548163220756, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.dll.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548163220979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548163220983, "dur":163243, "ph":"X", "name": "MovedFromExtractorCombine",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.dll.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1694548163384247, "dur":869559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548164253806, "dur":446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Csc Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.dll (+2 others)" }}
+,{ "pid":12345, "tid":5, "ts":1694548164254254, "dur":44, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548164254302, "dur":203365, "ph":"X", "name": "Csc",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.dll (+2 others)" }}
+,{ "pid":12345, "tid":5, "ts":1694548164460227, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Library/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1694548164460374, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548164460378, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Library/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1694548164461453, "dur":73748, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548144117826, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548144117826, "dur":1456, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548144119282, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.rsp" }}
+,{ "pid":12345, "tid":6, "ts":1694548144119406, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548144119471, "dur":896, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.rsp" }}
+,{ "pid":12345, "tid":6, "ts":1694548144120368, "dur":407806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.dll_7946DCDA4C35BAA6.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548144528177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548144528182, "dur":544964, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.dll_7946DCDA4C35BAA6.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548145073171, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_9532FEC853F013F1.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548145073177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548145073181, "dur":254961, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_9532FEC853F013F1.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548145328172, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_248CC19C7E326A31.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548145328179, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548145328183, "dur":229745, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_248CC19C7E326A31.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548145557969, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_461F0579CF29FA72.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548145557977, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548145557981, "dur":262874, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_461F0579CF29FA72.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548145820881, "dur":30741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_157F3846A4E2832F.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548145851627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548145851633, "dur":210445, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_157F3846A4E2832F.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548146062104, "dur":18327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestTextureModule.dll_B3647CCBEE79E5AB.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548146080435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548146080441, "dur":221323, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestTextureModule.dll_B3647CCBEE79E5AB.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548146301800, "dur":16732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityTestProtocolModule.dll_5B229AA3DE523573.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548146318536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548146318542, "dur":187698, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.UnityTestProtocolModule.dll_5B229AA3DE523573.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548146506272, "dur":125610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsCommonModule.dll_CF94379EFF3484DC.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548146631887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548146631892, "dur":296449, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsCommonModule.dll_CF94379EFF3484DC.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548146928376, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UIElementsModule.dll_03249CC634762F9B.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548146928382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548146928385, "dur":258754, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.UIElementsModule.dll_03249CC634762F9B.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548147187166, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreFontEngineModule.dll_3437EDA4A9AD615D.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548147187173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548147187177, "dur":444048, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreFontEngineModule.dll_3437EDA4A9AD615D.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548147631260, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SubstanceModule.dll_2A45C25AE902A1E4.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548147631267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548147631271, "dur":189762, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.SubstanceModule.dll_2A45C25AE902A1E4.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548147821062, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteMaskModule.dll_9438D4FC63020B91.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548147821068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548147821073, "dur":388530, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteMaskModule.dll_9438D4FC63020B91.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548148209640, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PhysicsModule.dll_1A05547BE2F6C79B.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548148209647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548148209652, "dur":290346, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.PhysicsModule.dll_1A05547BE2F6C79B.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548148500029, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.LocalizationModule.dll_EF6FF5C60F42A609.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548148500036, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548148500040, "dur":480054, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.LocalizationModule.dll_EF6FF5C60F42A609.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548148980128, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.IMGUIModule.dll_28D55342A881FB6B.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548148980134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548148980139, "dur":252401, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.IMGUIModule.dll_28D55342A881FB6B.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548149232570, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GridModule.dll_53DA9ABB399468B6.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548149232581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548149232586, "dur":167078, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.GridModule.dll_53DA9ABB399468B6.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548149399691, "dur":9514664, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548158914355, "dur":165561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_FAE6DBEA21006BE5.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548159079936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548159079942, "dur":342390, "ph":"X", "name": "MovedFromExtractor",  "args": { "detail":"Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_FAE6DBEA21006BE5.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548159422355, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractorCombine Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.dll.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548159422585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548159422590, "dur":1035912, "ph":"X", "name": "MovedFromExtractorCombine",  "args": { "detail":"Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.dll.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1694548160458520, "dur":1466533, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548161925053, "dur":41118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Library/PlayerScriptAssemblies/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548161966174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548161966179, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Library/PlayerScriptAssemblies/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548161967015, "dur":1063610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548163030625, "dur":134648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Library/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548163165277, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548163165282, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Library/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548163166708, "dur":1087117, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548164253826, "dur":101631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Library/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548164355461, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548164355466, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Library/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548164356814, "dur":178387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548164549934, "dur":1687, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1694548164589720, "dur": 671, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694548164583968, "dur": 6447, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1694548178284128, "dur": 3634707, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694548178284360, "dur": 1253, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694548178285615, "dur": 45978, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694548178331594, "dur": 1002643, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694548179334239, "dur": 2583271, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694548181917511, "dur": 1323, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694548181919442, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1694548179129151, "dur": 191313, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694548179130064, "dur": 39988, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694548179300908, "dur": 4740, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694548179305651, "dur": 14806, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694548179306359, "dur": 13372, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694548179324841, "dur": 1246, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694548179323960, "dur": 2153, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694548181919536, "dur": 229, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1694548179383109, "dur":1448, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548179384564, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1694548179384633, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1694548179384646, "dur":231, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1694548179384898, "dur":604, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548179385502, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548181895518, "dur":216, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548181895734, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548181895742, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548181895745, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548181895766, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548181895768, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548181895773, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548181895774, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548181895779, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548181895781, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548181895786, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548181895788, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548181895793, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548181895800, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548181895828, "dur":1756, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1694548179385360, "dur":172, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548179385532, "dur":2869, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548179388401, "dur":48016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1694548179436421, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548179436444, "dur":60964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1694548179497421, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1694548179497443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548179497499, "dur":5075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1694548179502597, "dur":27791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1694548179530392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548179530401, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1694548179531289, "dur":1109503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548180640796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548180640802, "dur":9985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548180650806, "dur":121778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548180772588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548180772596, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548180773702, "dur":43124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548180816829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548180816836, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548180817690, "dur":176611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548180994320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548180994328, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548180995274, "dur":38508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181033792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548181033800, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181035087, "dur":47145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181082235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548181082242, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181083355, "dur":83206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181166565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548181166573, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181167801, "dur":59150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181226956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548181226964, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181228192, "dur":61199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181289394, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548181289400, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181290560, "dur":75259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181365823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548181365831, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181366799, "dur":66770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181433572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548181433579, "dur":5158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181438784, "dur":152423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181591212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548181591221, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181592728, "dur":64311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181657043, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548181657051, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181657901, "dur":107762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181765667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694548181765675, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694548181766751, "dur":128777, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548179385519, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548179385520, "dur":2841, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548179388368, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1694548179388372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548179389567, "dur":288, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1694548179389859, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1694548179389908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548179390144, "dur":2232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1694548179392379, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1694548179392416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548179392655, "dur":104494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1694548179497165, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1694548179497239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548179497357, "dur":10417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1694548179507794, "dur":16131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1694548179523929, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548179523938, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1694548179525117, "dur":294732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548179819854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548179819953, "dur":2858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548179822828, "dur":181810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180004642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548180004651, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180005715, "dur":34837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180040556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548180040581, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180041502, "dur":168849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180210370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548180210378, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180211418, "dur":89783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180301204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548180301211, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180302076, "dur":189572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180491652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548180491662, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180492734, "dur":170608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180663347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548180663356, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180664759, "dur":66372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180731135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548180731143, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180732074, "dur":52873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180784951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548180784959, "dur":936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180785939, "dur":60091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180846034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548180846042, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180847175, "dur":130735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180977915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548180977922, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548180979143, "dur":64511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548181043658, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548181043667, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548181044823, "dur":17262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548181062088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548181062096, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548181063119, "dur":90483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548181153606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548181153614, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548181155118, "dur":98441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548181253564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548181253572, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548181254566, "dur":100269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548181354839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548181354847, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548181356032, "dur":65115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548181421185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548181421194, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548181422940, "dur":99999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548181522943, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548181522952, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548181524072, "dur":84064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548181608140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548181608149, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548181609176, "dur":283360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548181892540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694548181892547, "dur":2856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694548181895448, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1694548181895451, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548179385464, "dur":103, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548179385567, "dur":2831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548179388398, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1694548179388448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548179390848, "dur":106184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1694548179497050, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1694548179497075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548179497444, "dur":6963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1694548179504426, "dur":12478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1694548179516907, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548179517039, "dur":25680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1694548179542733, "dur":23250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus.exe" }}
+,{ "pid":12345, "tid":3, "ts":1694548179565987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548179565993, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus.exe" }}
+,{ "pid":12345, "tid":3, "ts":1694548179567200, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1694548179567233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548179567472, "dur":100079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1694548179667569, "dur":179685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548179847261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548179847336, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548179848401, "dur":275108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548180123513, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548180123521, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548180124524, "dur":225293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548180349821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548180349828, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548180350697, "dur":169811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548180520526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548180520534, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548180521471, "dur":90963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548180612437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548180612444, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548180613573, "dur":96907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548180710485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548180710493, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548180711528, "dur":64956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548180776489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548180776497, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548180777577, "dur":47702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548180825283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548180825290, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548180826174, "dur":129843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548180956022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548180956029, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548180956908, "dur":135136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548181092048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548181092072, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548181093280, "dur":104925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548181198210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548181198218, "dur":898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548181199157, "dur":83821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548181282982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548181282990, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548181284157, "dur":250187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548181534349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548181534358, "dur":6980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548181541388, "dur":155274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548181696666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548181696674, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694548181697671, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1694548181697714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548181697793, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1694548181698833, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1694548181698878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548181698885, "dur":13265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1694548181712191, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1694548181712236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548181712243, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1694548181713116, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1694548181713230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548181713236, "dur":731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1694548181714006, "dur":570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1694548181714580, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548181714586, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1694548181715403, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1694548181715446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548181715452, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1694548181716359, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1694548181716401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548181716407, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1694548181717296, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1694548181717340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548181717346, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1694548181718205, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1694548181718248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548181718254, "dur":840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1694548181719137, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1694548181719252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694548181719260, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1694548181720119, "dur":175395, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548179385605, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548179385605, "dur":2794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548179388399, "dur":37645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1694548179426049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548179426067, "dur":71786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1694548179498027, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1694548179498056, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548179498513, "dur":17796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1694548179516326, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1694548179516883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548179516889, "dur":25757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1694548179542664, "dur":601655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1694548180144323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548180144329, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1694548180145537, "dur":87841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548180233383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548180233390, "dur":796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548180234228, "dur":145143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548180379376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548180379383, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548180380281, "dur":168822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548180549108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548180549116, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548180550010, "dur":60696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548180610710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548180610718, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548180611645, "dur":99846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548180711494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548180711502, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548180712532, "dur":73837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548180786373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548180786380, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548180787445, "dur":111624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548180899073, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548180899081, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548180900003, "dur":109555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548181009562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548181009570, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548181010455, "dur":46994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548181057452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548181057458, "dur":4081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548181061614, "dur":17847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548181079465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548181079474, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548181080618, "dur":29458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548181110080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548181110088, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548181110967, "dur":122493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548181233464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548181233472, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548181234496, "dur":172649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548181407168, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548181407177, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548181408728, "dur":38001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548181446733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548181446742, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548181447774, "dur":288242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548181736020, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694548181736035, "dur":1858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694548181737935, "dur":157578, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548179385708, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548179385708, "dur":2692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548179388400, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1694548179388447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548179390679, "dur":106496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1694548179497210, "dur":10826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1694548179508038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548179508047, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1694548179509200, "dur":7670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1694548179516874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548179517025, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1694548179518506, "dur":69694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548179588204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548179588409, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548179589502, "dur":138314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548179727820, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548179728018, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548179728845, "dur":292040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548180020890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548180020897, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548180021934, "dur":155066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548180177004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548180177012, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548180177894, "dur":122028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548180299927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548180299935, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548180300860, "dur":108595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548180409460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548180409467, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548180410563, "dur":187582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548180598150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548180598157, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548180599819, "dur":95885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548180695708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548180695715, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548180696610, "dur":64652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548180761265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548180761289, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548180762211, "dur":23452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548180785666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548180785673, "dur":767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548180786485, "dur":115946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548180902435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548180902443, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548180903370, "dur":140454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181043826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548181043849, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181044973, "dur":22054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181067031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548181067040, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181067950, "dur":13919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181081873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548181081882, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181082842, "dur":104664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181187509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548181187518, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181188578, "dur":30658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181219239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548181219245, "dur":3258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181222548, "dur":80092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181302644, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548181302656, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181303885, "dur":129306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181433196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548181433204, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181434718, "dur":28557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181463279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548181463288, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181464407, "dur":35706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181500117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548181500126, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181501060, "dur":125187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181626250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548181626258, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181627598, "dur":171997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181799600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694548181799610, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694548181800686, "dur":94836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548179385798, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548179385798, "dur":2586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548179388384, "dur":66597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1694548179454985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548179455437, "dur":41674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1694548179497125, "dur":10979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1694548179508106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548179508113, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1694548179509244, "dur":7716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1694548179516963, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548179516968, "dur":106992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1694548179623978, "dur":539797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548180163779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548180163787, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548180164711, "dur":138464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548180303181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548180303189, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548180304280, "dur":242338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548180546622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548180546629, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548180547577, "dur":53098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548180600679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548180600690, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548180601949, "dur":152551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548180754504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548180754512, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548180755508, "dur":60606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548180816118, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548180816127, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548180817217, "dur":205803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548181023025, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548181023034, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548181024000, "dur":33344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548181057349, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548181057365, "dur":1445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548181058855, "dur":15977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548181074836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548181074845, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548181075745, "dur":96766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548181172515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548181172523, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548181173538, "dur":45502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548181219045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548181219053, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548181219984, "dur":69132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548181289120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548181289129, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548181290533, "dur":43561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548181334097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548181334106, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548181335017, "dur":122376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548181457397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548181457406, "dur":2408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548181459871, "dur":284335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548181744211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694548181744221, "dur":1878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gabew/Documents/GitHub/VS-PlanetCameraChungus/VS-PlanetCameraChungus-ExeBuild/PlanetCameraChungus_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694548181746143, "dur":149387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694548181899173, "dur":1913, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1694548181919836, "dur": 742, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694548181919434, "dur": 1162, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{}
+
+],
+"meta_datetime": "09/12/2023 15:49:42",
+"meta_command_line": "\"G:\\Unity 2021.3.30f1\\Editor\\Unity.exe\" -projectpath C:\\Users\\gabew\\Documents\\GitHub\\VS-PlanetCameraChungus\\PlanetCameraChungus -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-gabew -hubSessionId 7803d5ae-31d5-41f6-9f51-2a9dc45b9885 -accessToken hbz-CxHZVkpwfDs59UVEF3bTxFRepc4wkqxDUWu0JH0003f",
+"meta_command_line_args": "G:\\Unity 2021.3.30f1\\Editor\\Unity.exe -projectpath C:\\Users\\gabew\\Documents\\GitHub\\VS-PlanetCameraChungus\\PlanetCameraChungus -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-gabew -hubSessionId 7803d5ae-31d5-41f6-9f51-2a9dc45b9885 -accessToken hbz-CxHZVkpwfDs59UVEF3bTxFRepc4wkqxDUWu0JH0003f",
+"meta_user_name": "gabew",
+"meta_os_version": "Microsoft Windows NT 10.0.19045.0",
+"meta_cpu_count": "6"
+}
